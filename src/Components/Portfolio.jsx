@@ -66,7 +66,7 @@ const Portfolio = () => {
             alt={imageAltText}
           />
         </div>
-        <div className="container">
+        <div className="container row">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
